@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lional.example.com.objectdetect.MainActivity">
+
+        <org.opencv.android.JavaCameraView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/opencv_camera"
+            app:camera_id="any" />
+
+
+       <!-- <SeekBar
+            android:id="@+id/low_r_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="255"
+            android:progress="0"
+            app:layout_anchor="@id/opencv_camera"
+            app:layout_anchorGravity="top"
+            />
+
+        <TextView
+            android:id="@+id/low_r_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/rgb_r_value"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/low_r_select"
+            app:layout_anchorGravity="bottom|right"
+            />
+
+        <SeekBar
+            android:id="@+id/low_g_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="255"
+            android:progress="0"
+            app:layout_anchor="@id/low_r_text"
+            app:layout_anchorGravity="bottom"
+            />
+
+        <TextView
+            android:id="@+id/low_g_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/rgb_g_value"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/low_g_select"
+            app:layout_anchorGravity="bottom|right"
+            />
+
+        <SeekBar
+            android:id="@+id/low_b_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="255"
+            android:progress="0"
+            app:layout_anchor="@id/low_g_text"
+            app:layout_anchorGravity="bottom"
+            />
+
+        <TextView
+            android:id="@+id/low_b_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/rgb_b_value"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/low_b_select"
+            app:layout_anchorGravity="bottom|right"
+            />
+
+
+        <SeekBar
+            android:id="@+id/high_r_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="255"
+            android:progress="0"
+            app:layout_anchor="@id/low_b_text"
+            app:layout_anchorGravity="bottom"
+            />
+
+        <TextView
+            android:id="@+id/high_r_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/h_rgb_r_value"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/high_r_select"
+            app:layout_anchorGravity="bottom|right"
+            />
+
+        <SeekBar
+            android:id="@+id/high_g_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="255"
+            android:progress="0"
+            app:layout_anchor="@id/high_r_text"
+            app:layout_anchorGravity="bottom"
+            />
+
+        <TextView
+            android:id="@+id/high_g_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/h_rgb_g_value"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/high_g_select"
+            app:layout_anchorGravity="bottom|right"
+            />
+
+        <SeekBar
+            android:id="@+id/high_b_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="255"
+            android:progress="0"
+            app:layout_anchor="@id/high_g_text"
+            app:layout_anchorGravity="bottom"
+            />
+
+        <TextView
+            android:id="@+id/high_b_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/h_rgb_b_value"
+            android:layout_marginRight="20dp"
+            app:layout_anchor="@id/high_b_select"
+            app:layout_anchorGravity="bottom|right"
+            />-->
+
+</android.support.constraint.ConstraintLayout>

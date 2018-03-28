@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ObjectDetect</string>
+    <string name="btn_handdetect">Hand Detect</string>
+    <string name="btn_digitdetect">Digit Detect</string>
+    <string name="digit_fresh">Next Digit</string>
+    <string name="rgb_r_value">Low Red Vlaue: </string>
+    <string name="rgb_g_value">Low Green Vlaue: </string>
+    <string name="rgb_b_value">Low Blue Vlaue: </string>
+    <string name="h_rgb_r_value">High Red Vlaue: </string>
+    <string name="h_rgb_g_value">High Green Vlaue: </string>
+    <string name="h_rgb_b_value">High Blue Vlaue: </string>
+    <string name="process_info">Loading...(it will take a few minutes)</string>
+</resources>
